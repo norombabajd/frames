@@ -13,6 +13,7 @@
 		043A573B2B80ADDF005C174B /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A573A2B80ADDF005C174B /* ImmersiveView.swift */; };
 		043A573D2B80ADE0005C174B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043A573C2B80ADE0005C174B /* Assets.xcassets */; };
 		043A57402B80ADE0005C174B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043A573F2B80ADE0005C174B /* Preview Assets.xcassets */; };
+		043A57482B80AEA0005C174B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A57472B80AE9F005C174B /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		043A573C2B80ADE0005C174B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043A573F2B80ADE0005C174B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		043A57412B80ADE0005C174B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043A57472B80AE9F005C174B /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		043A57312B80ADDF005C174B /* Frames */ = {
 			isa = PBXGroup;
 			children = (
+				043A57472B80AE9F005C174B /* HomeView.swift */,
 				043A57362B80ADDF005C174B /* FramesApp.swift */,
 				043A57382B80ADDF005C174B /* ContentView.swift */,
 				043A573A2B80ADDF005C174B /* ImmersiveView.swift */,
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				043A57392B80ADDF005C174B /* ContentView.swift in Sources */,
+				043A57482B80AEA0005C174B /* HomeView.swift in Sources */,
 				043A57372B80ADDF005C174B /* FramesApp.swift in Sources */,
 				043A573B2B80ADDF005C174B /* ImmersiveView.swift in Sources */,
 			);

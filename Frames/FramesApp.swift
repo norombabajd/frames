@@ -11,11 +11,8 @@ import SwiftUI
 struct FramesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
-
-        ImmersiveSpace(id: "ImmersiveSpace") {
-            ImmersiveView()
-        }
+        // .defaultSize(CGSize(width: 600, height: 400))
     }
 }
